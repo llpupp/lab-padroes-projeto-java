@@ -3,7 +3,7 @@ package one.digitalinnovation.gof.Facede;
 import subsistema1.crm.CrmService;
 import subsistema2.cep.CepAPI;
 
-public class Facede {
+public class Facade {
     public void migrarCliente(String nome, String cep){
 
         String cidade = CepAPI.getInstancia().recuperarCidade(cep);
