@@ -1,6 +1,4 @@
-package one.digitalinnovation.gof;
-
-import java.lang.reflect.Constructor;
+package one.digitalinnovation.gof.singleton;
 
 /**
  * Singleton "preguiçoso".
